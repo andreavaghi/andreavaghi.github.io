@@ -1,20 +1,8 @@
 body {
-	background: #EEEDE5;
-	color: #607188;
+	background: #fff url('images/profile.jpg') no-repeat 0 0;
+	background-size: cover;
 	text-align: center;
 	font: 100%/1.375 Georgia, serif;
 	padding: 0;
 	margin: 0;
-}
-
-h2 {
-	color: #E0421B;
-}
-
-h3 a {
-	color: #607188;
-}
-
-h3 a:hover {
-	color: #E0421B;
 }
