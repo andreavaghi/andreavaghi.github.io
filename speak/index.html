@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div class="content">
+		<form action="">
+			<input type="text" placeholder="Insert text">
+			<div class="language clearfix">
+				<input type="radio" class="toggle toggle-en-us" id="toggle-en-us" name="toggle" value="en-US" checked>
+				<label for="toggle-en-us" class="toggle toggle-en-us">en-US</label>
+				<input type="radio" class="toggle toggle-en-gb" id="toggle-en-gb" name="toggle" value="en-GB">
+				<label for="toggle-en-gb" class="toggle toggle-en-gb">en-GB</label>
+			</div>
+			<button>Speak!</button>
+		</form>
+	</div>
+	
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript">
+		function speak(textToSpeak, lang) {
+		   // Create a new instance of SpeechSynthesisUtterance
+		   var newUtterance = new SpeechSynthesisUtterance();
+
+		   // Set the text
+		   newUtterance.text = textToSpeak;
+		   newUtterance.lang = lang;
+
+		   // Add this text to the utterance queue
+		   window.speechSynthesis.speak(newUtterance);
+		}
+		$(function(){
+			$('form').on('submit', function(e){
+				e.preventDefault();
+				var text = $('input').val();
+				var lang = $('input[name=toggle]:checked').val();
+				speak(text, lang);
+			});
+		});
+	</script>
+</body>
+</html>
