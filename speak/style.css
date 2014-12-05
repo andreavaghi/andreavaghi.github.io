@@ -47,7 +47,7 @@ input[type="radio"].toggle {
 }
 
 input[type="radio"].toggle + label {
- 	width: 50%;
+ 	width: 33.3%;
   	padding: 1em;
   	float: left;
   	text-align: center;
@@ -71,6 +71,15 @@ input[type="radio"].toggle-en-us + label {
 }
 
 input[type="radio"].toggle-en-gb + label {
+	border-right: 0;
+  	border-top-right-radius: 0;
+  	border-bottom-right-radius: 0;
+  	border-left: 0;
+  	border-top-left-radius: 0;
+  	border-bottom-left-radius: 0;
+}
+
+input[type="radio"].toggle-it-it + label {
 	border-left: 0;
   	border-top-left-radius: 0;
   	border-bottom-left-radius: 0;
