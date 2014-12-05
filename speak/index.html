@@ -18,7 +18,6 @@
 				<input type="radio" class="toggle toggle-it-it" id="toggle-it-it" name="toggle" value="it-IT">
 				<label for="toggle-it-it" class="toggle toggle-it-it">it-IT</label>
 			</div>
-			<button>Speak!</button>
 		</form>
 	</div>
 	
@@ -36,7 +35,7 @@
 		   window.speechSynthesis.speak(newUtterance);
 		}
 		$(function(){
-			$('form').on('submit', function(e){
+			$('input[name=toggle]').on('change', function(e){
 				e.preventDefault();
 				var text = $('input').val();
 				var lang = $('input[name=toggle]:checked').val();
