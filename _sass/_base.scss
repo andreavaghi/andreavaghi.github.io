@@ -80,7 +80,8 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -89,15 +90,12 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $header-color;
     text-decoration: none;
-
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
+    font-weight: 700;
 
     &:hover {
-        color: $text-color;
+        color: $header-color;
         text-decoration: underline;
     }
 }
@@ -198,7 +196,7 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: $text-color;
         }
     }
 }
