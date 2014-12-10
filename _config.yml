@@ -1,8 +1,8 @@
 # Site settings
-title: Your awesome title
+title: Andrea Vaghi
 email: andrea.vaghi@gmail.com
 description: |
-  Front End Engineer @jobrapido.com
+  Front End Developer
   Love travels, LEGO and penguins
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://andreavaghi.com" # the base hostname & protocol for your site
