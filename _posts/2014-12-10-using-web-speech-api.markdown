@@ -4,7 +4,6 @@ title:  "Using Web Speech API"
 date:   2014-12-10 11:27:59
 categories: code
 author: Andrea Vaghi
-published: false
 ---
 {::options parse_block_html="true" /}
 <div class="post-content-header">
