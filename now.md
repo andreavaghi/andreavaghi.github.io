@@ -1,6 +1,7 @@
 ---
 layout: page
-title: What i'm doing now
+title: What I'm doing now
+linkname: Now
 permalink: /now/
 ---
 
