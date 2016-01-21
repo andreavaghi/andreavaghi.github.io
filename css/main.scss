@@ -19,6 +19,8 @@ $white-color:      #fcf7d1;
 $brand-color:      #8c0005;
 $header-color:     #b52c00;
 $footer-color:     #a9a17a;
+$white:            #fff;
+$black:            #000;
 
 
 $grey-color:       #828282;
@@ -52,5 +54,6 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "home"
 ;
