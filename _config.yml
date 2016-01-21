@@ -9,6 +9,7 @@ url: "http://andreavaghi.com" # the base hostname & protocol for your site
 twitter_username: andreavaghi
 github_username:  andreavaghi
 permalink: pretty
+paginate_path: "/blog/page:num"
 
 # Build settings
 markdown: kramdown

@@ -1,12 +1,13 @@
 ---
 layout: page
-title: About Me
+title: Front End Engineer
 linkname: About Me
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+## Profile
+I'm passionate about the web, its possibilities and openness. I embrace a philosophy of continuous improvement, through studying and daily practice.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+## Experience
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+## Skills
