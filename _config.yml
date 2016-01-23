@@ -1,15 +1,31 @@
-# Site settings
-title: Andrea Vaghi
-email: andrea.vaghi@gmail.com
-description: |
-  Front End Developer.
-  Love travels, LEGO and penguins.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://andreavaghi.com" # the base hostname & protocol for your site
-twitter_username: andreavaghi
-github_username:  andreavaghi
-permalink: pretty
-paginate_path: "/blog/page:num"
-
-# Build settings
+# top level stuff you probably don't need to touch
+highlighter: pygments
 markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 3000
+safe: true
+
+
+# edit here to achieve your personal greatness
+url: http://andreavaghi.github.io/
+baseurl: /
+title: Andrea Vaghi
+author: Andrea Vaghi
+description: Personal blog and resume
+avatar: profile.jpg
+email: andreavaghi@gmail.com
+github: andreavaghi # username
+twitter: andreavaghi
+linkedin: andrea-vaghi-b3036935
+stackoverflow: users/2350339/urbando   #e.g: users/2735833/proton1h1
+#Comment out if you don't want disqus
+# disqus: username
+google_analytics: UA-18436516-1
+
+
+# needed for travis-ci build
+exclude: [vendor]
