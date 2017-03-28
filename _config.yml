@@ -11,8 +11,8 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: https://andreavaghi.github.io/
-enforce_ssl: andreavaghi.github.io
+url: https://www.andreavaghi.com/
+enforce_ssl: www.andreavaghi.com
 baseurl: /
 title: Andrea Vaghi
 author: Andrea Vaghi
