@@ -11,7 +11,7 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: https://www.andreavaghi.com/
+url: https://www.andreavaghi.com
 enforce_ssl: www.andreavaghi.com
 baseurl: /
 title: Andrea Vaghi
