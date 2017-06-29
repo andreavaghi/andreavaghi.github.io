@@ -6,7 +6,7 @@ html, body {
   background-color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
-  border-top: 3px solid #3498db;
+  border-top: 3px solid #2B92FF;
 }
 
 
@@ -117,11 +117,11 @@ html, body {
 }
 
 .container a {
-  color: #3498db;
+  color: #2B92FF;
 }
 
 .container a:hover {
-  color: #3498db;
+  color: #2B92FF;
 }
 
 .img-responsive {
@@ -147,11 +147,11 @@ html, body {
 }
 
 .panel-default h4 a, h5 a {
-  color: #3498db;
+  color: #2B92FF;
 }
 
 .panel-default h4 a:hover, h5 a:hover {
-  color: #3498db;
+  color: #2B92FF;
 }
 
 .panel {
@@ -224,7 +224,7 @@ html, body {
 }
 
 div.footer {
-  border-bottom: 5px solid #3498db;
+  border-bottom: 5px solid #2B92FF;
 }
 
 
