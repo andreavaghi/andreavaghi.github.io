@@ -9,7 +9,6 @@ html, body {
   border-top: 3px solid #2B92FF;
 }
 
-
 /* Wrapper for page content to push down footer */
 
 #wrap {
@@ -21,7 +20,6 @@ html, body {
   /* Pad bottom by footer height */
   /*padding: 0 0 60px;*/
 }
-
 
 /* Navbar
 -------------------------------------------------- */
@@ -101,7 +99,6 @@ html, body {
     background-color: #ffffff;
   }
 }
-
 
 /* Custom page CSS
 -------------------------------------------------- */
@@ -192,10 +189,6 @@ html, body {
   padding-top: 20%;
 }
 
-.disqus {
-  padding-bottom: 15px;
-}
-
 .blogpost {
   text-align: left;
   line-height: 30px;
@@ -205,7 +198,6 @@ html, body {
 .panel ul {
   font-size: 18px;
 }
-
 
 /* Footer
 -------------------------------------------------- */
@@ -227,9 +219,7 @@ div.footer {
   border-bottom: 5px solid #2B92FF;
 }
 
-
 /* Set the fixed height of the footer here */
-
 
 /*.footer {
   height: 50px;
